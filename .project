@@ -1,0 +1,8 @@
+NAME=Volume Control Pro
+
+
+
+dependencies {
+compile 'com.android.support:appcompat-v7:28.0.0'
+compile 'com.android.support:cardview-v7:27.1.1'
+}

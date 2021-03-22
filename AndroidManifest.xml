@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="531201927" android:versionName="5.0c" android:installLocation="auto"
+    package="com.android.DROID_MJ.volumecontrolpro">
+
+    <uses-sdk
+        android:minSdkVersion="12"
+        android:targetSdkVersion="27" />
+
+    <application android:configChanges="keyboard|keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|smallestScreenSize"
+        android:allowBackup="true" android:resizeableActivity="true"
+        android:icon="@drawable/a"
+        android:label="@string/a"
+        android:supportsRtl="true"
+        android:theme="@style/a">
+        <activity android:configChanges="keyboard|keyboardHidden|layoutDirection|orientation|screenLayout|screenSize|smallestScreenSize" android:launchMode="singleTask"  android:windowSoftInputMode="adjustResize" android:name=".a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
